@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  char x;
+  scanf("%c",&x);
+
+  if(x>='A'&&x<='Z'){
+    printf("\'%c\' is an uppercase letter.\n",x);
+  }
+  else if (x>='a'&&x<='z'){
+    printf("\'%c\' is a lowercase letter.\n",x);
+  }
+  else{
+    printf("\'%c\' is a digit.",x);
+  }
+  return 0;
+}
