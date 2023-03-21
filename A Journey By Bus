@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int n,k;
+  scanf("%d %d",&n,&k);
+
+  int div = n%k;
+  if(div==0){
+    printf("%d",n/k);
+  }
+  else{
+    printf("%d",(n/k)+1);
+  }
+  return 0;
+}
